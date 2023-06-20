@@ -409,7 +409,9 @@ footer a {
 
 .icon-container {
   float: right;
-  background-color: #00a0c6;
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 .top {
@@ -428,7 +430,7 @@ footer a {
 
 @media screen and (min-width: 1199px) {
   .bottom {
-    margin-top: 200vh;
+    bottom: 0;
   }
 }
 
